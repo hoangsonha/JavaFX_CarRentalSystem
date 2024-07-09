@@ -18,7 +18,9 @@
 
 ## Screenshots
 
-![Source code and test script](https://github.com/hoangsonha/JavaFX_StudentManager/blob/main/screenshots/project.png)
+![Source code and test script](https://github.com/hoangsonha/JavaFX_CarRentalSystem/blob/main/screenshots/admin.png)
+
+![Source code and test script](https://github.com/hoangsonha/JavaFX_CarRentalSystem/blob/main/screenshots/user.png)
 
 <br>
 
