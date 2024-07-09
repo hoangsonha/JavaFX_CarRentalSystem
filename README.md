@@ -4,20 +4,17 @@
 
 - Build a project with JavaFX to render UI
 - Reference project with Hibernate to manage car renting and save to Database (SQL Server)
+   + Link github: https://github.com/hoangsonha/CarRentalSystem_Hibernate
 
 ## Tools
 
 - Eclipse IDE for Enterprise Java and Web Developers
-- SQL Server Management Studio
 - Scene Builder
 
 ## Technologies
+
 - Java
 - JavaFX
-- Maven
-- Hibernate
-- SQL Server
-
 
 ## Screenshots
 
