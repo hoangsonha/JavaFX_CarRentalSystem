@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="618.0" prefWidth="943.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hsf301.controller.CarRentalController">
+   <children>
+      <Pane prefHeight="158.0" prefWidth="943.0" style="-fx-background-color: #feca57;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.7999999999999545" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="51.0" layoutY="14.0" text="FUCarRentingSystem" textFill="#341f97">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Label layoutX="321.0" layoutY="94.0" text="CarRental Management " textFill="#44bd32">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+           
+         </children>
+      </Pane>
+      <Pane layoutX="630.0" layoutY="262.0" prefHeight="25.0" prefWidth="200.0" />
+      <TableView fx:id="tbData" layoutX="-6.0" layoutY="392.0" prefHeight="227.0" prefWidth="951.0" style="-fx-border-color: #596275;">
+        <columns>
+          <TableColumn fx:id="carRentalID" prefWidth="64.00000071525574" text="ID" />
+          <TableColumn fx:id="carID" prefWidth="126.39999389648438" text="CarID" />
+          <TableColumn fx:id="customerID" prefWidth="120.00004577636719" text="CustomerID" />
+            <TableColumn fx:id="pickupDate" prefWidth="131.20001220703125" text="Pickup Date" />
+            <TableColumn fx:id="returnDate" prefWidth="150.4000244140625" text="Return Date" />
+            <TableColumn fx:id="rentPrice" prefWidth="176.79998779296875" text="Rent Price" />
+            <TableColumn fx:id="status" prefWidth="179.199951171875" text="Status" />
+        </columns>
+      </TableView>
+      <Button layoutX="730.0" layoutY="326.0" mnemonicParsing="false" onAction="#deleteCarRental" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #3dc1d3; -fx-border-color: #e66767; -fx-background-radius: 20; -fx-border-radius: 20;" text="Delete CarRental" textFill="#31008c">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="729.0" layoutY="267.0" mnemonicParsing="false" onAction="#updateCarRental" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #3dc1d3; -fx-border-color: #e66767; -fx-background-radius: 20; -fx-border-radius: 20;" text="Update CarRental" textFill="#31008c">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtCarRentalID" disable="true" layoutX="139.0" layoutY="172.0" prefHeight="35.0" prefWidth="182.0" style="-fx-border-color: #4cd137;" />
+      <Label layoutX="14.0" layoutY="176.0" text="ID" textFill="#e84118">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="729.0" layoutY="206.0" mnemonicParsing="false" onAction="#addCarRental" prefHeight="35.0" prefWidth="200.0" style="-fx-border-color: #e66767; -fx-border-radius: 20; -fx-background-radius: 20; -fx-background-color: #3dc1d3;" text="Add CarRental" textFill="#31008c">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="14.0" layoutY="281.0" text="CustomerID" textFill="#e84118">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtRentPrice" layoutX="451.0" layoutY="223.0" prefHeight="35.0" prefWidth="233.0" style="-fx-border-color: #4cd137;" />
+      <Label layoutX="14.0" layoutY="333.0" text="Pickup Date" textFill="#e84118">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="227.0" text="CarID" textFill="#e84118">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="345.0" layoutY="281.0" text="Status" textFill="#e84118">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="345.0" layoutY="227.0" text="Rent Price" textFill="#e84118">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="345.0" layoutY="333.0" text="Return Date" textFill="#e84118">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtReturnDate" layoutX="451.0" layoutY="329.0" prefHeight="35.0" prefWidth="234.0" style="-fx-border-color: #4cd137;" />
+      <TextField fx:id="txtPickupDate" layoutX="139.0" layoutY="329.0" prefHeight="35.0" prefWidth="182.0" style="-fx-border-color: #4cd137;" />
+      <TextField fx:id="txtCustomerID" layoutX="139.0" layoutY="277.0" prefHeight="35.0" prefWidth="182.0" style="-fx-border-color: #4cd137;" />
+      <TextField fx:id="txtCarID" layoutX="139.0" layoutY="223.0" prefHeight="35.0" prefWidth="182.0" style="-fx-border-color: #4cd137;" />
+      <TextField fx:id="txtStatus" layoutX="451.0" layoutY="277.0" prefHeight="35.0" prefWidth="233.0" style="-fx-border-color: #4cd137;" />
+   </children>
+</AnchorPane>

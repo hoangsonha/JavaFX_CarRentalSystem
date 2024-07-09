@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="618.0" prefWidth="943.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hsf301.controller.ReviewController">
+   <children>
+      <Pane prefHeight="158.0" prefWidth="943.0" style="-fx-background-color: #feca57;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.7999999999999545" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="51.0" layoutY="14.0" text="FUCarRentingSystem" textFill="#341f97">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Label layoutX="428.0" layoutY="97.0" text="Review" textFill="#44bd32">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+           
+         </children>
+      </Pane>
+      <TableView fx:id="tbData" layoutX="-6.0" layoutY="223.0" prefHeight="397.0" prefWidth="951.0" style="-fx-border-color: #596275;">
+        <columns>
+          <TableColumn fx:id="carReviewID" prefWidth="100.79998469352722" text="ID" />
+          <TableColumn fx:id="carID" prefWidth="180.00001525878906" text="CarID" />
+          <TableColumn fx:id="customerID" prefWidth="191.20001220703125" text="CustomerID" />
+            <TableColumn fx:id="reviewStar" prefWidth="153.60003662109375" text="Review Star" />
+            <TableColumn fx:id="comment" prefWidth="324.0" text="Comment" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
