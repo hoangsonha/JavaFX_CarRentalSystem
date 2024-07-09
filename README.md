@@ -5,6 +5,15 @@
 - Build a project with JavaFX to render UI
 - Reference project with Hibernate to manage car renting and save to Database (SQL Server)
    + Link github: https://github.com/hoangsonha/CarRentalSystem_Hibernate
+   + Main function:
+        - Manage customer information
+        - Manage car information
+        - Manage rental management
+        - Create a renting transaction report statistic by the period from StartDate to EndDate, and sort data in descending order
+        - Register an account.
+        - Create an online renting tractions with one or many cars’ information
+        - Manage his/her the profile
+        - View transaction history
 
 ## Tools
 
