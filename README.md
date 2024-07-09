@@ -4,6 +4,7 @@
 
 - Build a project with JavaFX to render UI
 - Reference project with Hibernate to manage car renting and save to Database (SQL Server)
+   + Develop 3-Layer with Repository Architecture
    + Link github: https://github.com/hoangsonha/CarRentalSystem_Hibernate
    + Main function:
         - Manage customer information
@@ -14,7 +15,13 @@
         - Create an online renting tractions with one or many cars’ information
         - Manage his/her the profile
         - View transaction history
-
+        - View review
+   + Technologies:
+       - Maven
+       - Hibernate
+       - Java
+       - SQL Server
+         
 ## Tools
 
 - Eclipse IDE for Enterprise Java and Web Developers
